@@ -1,0 +1,66 @@
+!!! 5 
+%html
+  %head
+    %meta{ "http-equiv" => "content-type", :content => "text/html; charset=utf-8" }
+    %meta{ "http-equiv" => "Cache-Control", :content => "no-cache" }
+    %meta{ "http-equiv" => "Pragma", :content => "no-cache" }
+    %meta{ "http-equiv" => "Expires", :content => "0" }
+    %title
+      Workshop on Social Media Visualization (SocMedVis)
+    %meta{ :name => "description", :content => "Workshop on Social Media Visualization (SocMedVis)" }
+    %link{ :rel => "stylesheet", :type => "text/css", :href => "/css/bootstrap.css" }
+    %link{ :rel => "stylesheet", :type => "text/css", :href => "/css/style.css" }
+  %body
+    .jumbotron.masthead
+      .inner
+        .container
+          %h1
+            Workshop on Social Media Visualization (SocMedVis)
+          %p.lead
+            in conjunction with
+            %a{ :href => "http://www.icwsm.org" } the International AAAI Conference on Weblogs and Social Media
+            &nbsp;
+            %a{ :href => "http://www.icwsm.org" }
+              %img{ :src => "media/icwsm_logo.png", :width => "121px", :height => "25px" }
+    .topbar
+      .fill
+        .container
+          %ul.nav
+            %li.active
+              %a{ :href => "/index.html" } Overview
+            %li
+              %a{ :href => "/call_for_papers.html" } Call for Papers
+            %li
+              %a{ :href => "/important_dates.html" } Important Dates
+            %li
+              %a{ :href => "/submissions.html" } Submissions
+            %li
+              %a{ :href => "/organizers.html" } Organizers
+            %li
+              %a{ :href => "/activities.html" } Activities
+            %li
+              %a{ :href => "/schedule.html" } Schedule
+    .container
+      .content
+        .page-header
+          %h1
+            {{ page.title }}
+        .row
+          .span14
+            {{ content }}
+      %footer
+        %p
+          Created with
+          %a{ :href => "https://github.com/mojombo/jekyll" } Jekyll
+          and
+          = succeed "." do
+            %a{ :href => "https://github.com/connatser/hyde" } Hyde
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-496232-13']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
