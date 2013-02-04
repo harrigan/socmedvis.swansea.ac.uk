@@ -230,7 +230,7 @@ body {
   margin-left: 240px;
 }
 a {
-  color: #0069d6;
+  color: #7DA21A;
   text-decoration: none;
   line-height: inherit;
   font-weight: inherit;
@@ -1643,7 +1643,7 @@ a.menu:after, .dropdown-toggle:after {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 }
 .pills .active a {
-  background: #0069d6;
+  background: #7DA21A;
   color: #ffffff;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 }
@@ -2355,7 +2355,7 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
   display: block;
 }
 .media-grid a:hover {
-  border-color: #0069d6;
+  border-color: #7DA21A;
   -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
