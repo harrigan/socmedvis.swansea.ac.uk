@@ -18,7 +18,7 @@ module Jekyll
     end
   end
 
-  require 'sass'
+  # require 'sass'
   class SassConverter < Converter
     safe true
     priority :low
